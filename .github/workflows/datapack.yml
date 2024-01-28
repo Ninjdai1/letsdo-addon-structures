@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Prepare datapack as a zip
-        run: zip -r ${{ github.event.repository.name }}-datapack-latest.zip . -x ".git/*" ".github/*" ".gitignore" "README.md" "LICENSE" "fabric.mod.json" "quilt.mod.json" "META-INF/"
+        run: zip -r ${{ github.event.repository.name }}-datapack-latest.zip . -x ".git/*" ".github/*" ".gitignore" "README.md" "LICENSE" "fabric.mod.json" "quilt.mod.json" "META-INF/*"
 
       - name: Upload the datapack
         uses: actions/upload-artifact@v4.3.0
