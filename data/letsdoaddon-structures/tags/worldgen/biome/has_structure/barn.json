@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:meadow"
+    "minecraft:meadow",
+    "meadow:meadow_clearing"
   ]
 }
