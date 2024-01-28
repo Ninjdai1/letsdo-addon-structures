@@ -1,0 +1,26 @@
+{
+  "schema_version":1,
+  "quilt_loader":{
+    "group":"com.modrinth",
+    "id":"letsdoaddon-structures",
+    "version":"1.1.0",
+    "metadata":{
+      "name":"Let's Do Addon: Structures",
+      "description":"An addon for the Let's Do mod series that adds themed, let's do-like structures to the world.",
+      "contributors":{
+        "Ninjdai":"Member"
+      },
+      "contact":{
+        "homepage":"https://modrinth.com/datapack/lets-do-addon-structures"
+      },
+      "icon":"pack.png"},
+      "intermediate_mappings":"net.fabricmc:intermediary",
+      "depends":[
+        {
+          "id":"quilt_resource_loader",
+          "versions":"*",
+          "unless":"fabric-resource-loader-v0"
+        }
+      ]
+  }
+}

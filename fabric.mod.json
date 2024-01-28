@@ -1,0 +1,21 @@
+{
+	"schemaVersion":1,
+	"id":"letsdoaddon-structures",
+	"version":"1.0.0",
+	"name":"Let's Do Addon: Structures",
+	"description":"An addon for the Let's Do mod series that adds themed, let's do-like structures to the world",
+	"authors":[
+    "Ninjdai_"
+  ],
+	"contact":{
+    "homepage":"https://modrinth.com/datapack/lets-do-addon-structures"
+  },
+	"license":"MIT",
+	"icon":"pack.png",
+	"environment":"*",
+	"depends":{
+		"minecraft": "1.20.1",
+		"fabric-resource-loader-v0":"*",
+		"meadow": "*"
+	}
+}
