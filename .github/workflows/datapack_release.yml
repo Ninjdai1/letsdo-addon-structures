@@ -1,0 +1,29 @@
+name: Datapack Release
+
+on:
+  release:
+    types: [published]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          loaders: |
+            fabric
+            forge
+            quilt
+
+          dependencies: |
+            meadow
+
+          modrinth-id: 2PaVx3ow
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          curseforge-id: 967867
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
