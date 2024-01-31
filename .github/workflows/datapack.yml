@@ -17,7 +17,7 @@ jobs:
       - name: Prepare datapack as a zip
         run: |
           zip -r ${{ github.event.repository.name }}-datapack-latest.zip . -x ".git/*" ".github/*" ".gitignore" "README.md" "LICENSE" "fabric.mod.json" "quilt.mod.json" "META-INF/*"
-          zip -r ${{ github.event.repository.name }}-latest.jar . -x ".git/*" ".github/*" ".gitignore" "README.md" "LICENSE"
+          zip -r ${{ github.event.repository.name }}-latest.jar . -x ".git/*" ".github/*" ".gitignore" "README.md" "LICENSE" "*.zip"
 
       - name: Upload the datapack
         uses: actions/upload-artifact@v4.3.0
