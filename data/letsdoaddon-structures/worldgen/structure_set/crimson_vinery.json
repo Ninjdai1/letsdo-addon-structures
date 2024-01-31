@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "letsdoaddon-structures:crimson_vinery",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 902042,
+    "spacing": 26,
+    "separation": 16,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#letsdoaddon-structures:has_structure/crimson_vinery",
+  "spawn_overrides": {},
+  "start_pool": "letsdoaddon-structures:crimson_vinery",
+  "size": 3,
+
+  "land_search_direction": "LOWEST_LAND",
+  "cannot_spawn_in_liquid": true,
+  "terrain_height_radius_check": 1,
+  "allowed_terrain_height_range": 3,
+
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "type": "uniform",
+		"min_inclusive": {
+			"absolute": 33
+		},
+		"max_inclusive": {
+			"absolute": 64
+		}
+  },
+
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

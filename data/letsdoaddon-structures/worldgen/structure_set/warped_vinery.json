@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "letsdoaddon-structures:warped_vinery",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 789142,
+    "spacing": 26,
+    "separation": 16,
+    "type": "minecraft:random_spread"
+  }
+}

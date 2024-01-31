@@ -1,0 +1,24 @@
+{
+  "name":"letsdoaddon-structures:crimson_vinery",
+  "fallback":"minecraft:empty",
+  "elements":[
+    {
+      "weight":1,
+      "element":{
+        "location":"letsdoaddon-structures:crimson_vinery/crimson_vinery_1",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight":1,
+      "element":{
+        "location":"letsdoaddon-structures:crimson_vinery/crimson_vinery_2",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    }
+  ]
+}
