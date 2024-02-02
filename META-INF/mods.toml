@@ -2,15 +2,26 @@ modLoader = 'lowcodefml'
 loaderVersion = '[40,)'
 license = 'MIT'
 showAsResourcePack = false
-mods = [
-	{
-    modId = 'letsdoaddon-structures',
-    version = '1.2.1',
-    displayName = "Let's Do Addon: Structures",
-    description = "An addon for the Let's Do mod series that adds themed, let's do-like structures to the world.",
-    logoFile = 'lets-do-addon-structures_pack.png',
-    updateJSONURL = 'https://api.modrinth.com/updates/2PaVx3ow/forge_updates.json',
-    authors = 'Ninjdai',
-    displayURL = 'https://modrinth.com/datapack/lets-do-addon-structures'
-  },
-]
+[[mods]]
+  modId = 'letsdoaddonstructures'
+  version = '1.2.1'
+  displayName = "Let's Do Addon: Structures"
+  description = "An addon for the Let's Do mod series that adds themed, let's do-like structures to the world."
+  logoFile = 'pack.png'
+  updateJSONURL = 'https://api.modrinth.com/updates/2PaVx3ow/forge_updates.json'
+  authors = 'Ninjdai'
+  displayURL = 'https://modrinth.com/datapack/lets-do-addon-structures'
+
+[[dependencies.letdoaddonstructures]]
+  modId="meadow"
+  mandatory=true
+
+[[dependencies.letsdoaddonstructures]]
+  modId="vinery"
+  mandatory=true
+  versionRange="[1.4.7,)"
+
+[[dependencies.letsdoaddonstructures]]
+  modId="nethervinery"
+  mandatory=true
+  versionRange="[1.2.2,)"

@@ -20,6 +20,18 @@
           "id":"quilt_resource_loader",
           "versions":"*",
           "unless":"fabric-resource-loader-v0"
+        },
+        {
+          "id":"meadow",
+          "versions": "*"
+        },
+        {
+          "id":"vinery",
+          "versions": "*"
+        },
+        {
+          "id":"nethervinery",
+          "versions": "*"
         }
       ]
   }

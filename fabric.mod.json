@@ -8,7 +8,10 @@
     "Ninjdai_"
   ],
 	"contact":{
-    "homepage":"https://modrinth.com/datapack/lets-do-addon-structures"
+    "homepage":"https://modrinth.com/datapack/lets-do-addon-structures",
+    "issues":"https://github.com/Ninjdai1/letsdo-addon-structures/issues",
+    "sources":"https://github.com/Ninjdai1/letsdo-addon-structures",
+    "discord":"https://discord.com/invite/Vddst9txP8"
   },
 	"license":"MIT",
 	"icon":"pack.png",
@@ -16,6 +19,15 @@
 	"depends":{
 		"minecraft": "1.20.1",
 		"fabric-resource-loader-v0":"*",
-		"meadow": "*"
-	}
+		"meadow": "*",
+		"vinery": "*",
+		"nethervinery": "*"
+	},
+  "custom": {
+    "modmenu": {
+        "links": {
+            "modmenu.discord": "https://discord.com/invite/Vddst9txP8"
+        }
+    }
+}
 }
