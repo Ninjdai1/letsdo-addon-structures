@@ -1,0 +1,15 @@
+{
+  "name":"letsdoaddon-structures:illager_mine_corridor_large",
+  "fallback":"minecraft:empty",
+  "elements":[
+    {
+      "weight":1,
+      "element":{
+        "location":"letsdoaddon-structures:illager_mine/illager_mine_corridor_large_1",
+        "processors":"letsdoaddon-structures:mine",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    }
+  ]
+}

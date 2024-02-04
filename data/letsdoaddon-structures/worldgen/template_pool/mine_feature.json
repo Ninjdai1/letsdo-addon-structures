@@ -1,0 +1,33 @@
+{
+  "name":"letsdoaddon-structures:mine_feature",
+  "fallback":"minecraft:empty",
+  "elements":[
+    {
+      "weight":5,
+      "element":{
+        "location":"letsdoaddon-structures:illager_mine/mine_feature/cobbled_limestone_pile",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight":5,
+      "element":{
+        "location":"letsdoaddon-structures:illager_mine/mine_feature/raw_ore_pile_iron",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight":5,
+      "element":{
+        "location":"letsdoaddon-structures:illager_mine/mine_feature/raw_ore_pile_gold",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    }
+  ]
+}

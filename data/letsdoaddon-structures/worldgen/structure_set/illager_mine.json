@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "letsdoaddon-structures:illager_mine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 20983156,
+    "spacing": 30,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}
