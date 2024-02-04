@@ -6,7 +6,7 @@
       "weight":5,
       "element":{
         "location":"letsdoaddon-structures:illager_mine/illager_mine_1",
-        "processors":"minecraft:empty",
+        "processors":"letsdoaddon-structures:mine",
         "projection":"rigid",
         "element_type":"minecraft:single_pool_element"
       }
