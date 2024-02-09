@@ -4,17 +4,17 @@
   "spawn_overrides": {},
   "start_pool": "letsdoaddon-structures:illager_mine",
   "size": 7,
-  "step": "surface_structures",
-  "terrain_adaptation": "beard_thin",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
   "start_height": {
     "type": "uniform",
     "min_inclusive": {
-      "absolute": 30
+      "absolute": 0
     },
     "max_inclusive": {
-      "absolute": 60
+      "absolute": 50
     }
   },
-  "max_distance_from_center": 116,
+  "max_distance_from_center": 100,
   "use_expansion_hack": false
 }
