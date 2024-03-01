@@ -1,7 +1,7 @@
 {
 	"schemaVersion":1,
 	"id":"letsdoaddon-structures",
-	"version":"1.5.0",
+	"version":"1.5.1",
 	"name":"Let's Do Addon: Structures",
 	"description":"An addon for the Let's Do mod series that adds themed, let's do-like structures to the world",
 	"authors":[
