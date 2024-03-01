@@ -1,0 +1,15 @@
+{
+  "name":"letsdoaddon-structures:meadow_pillager_outpost",
+  "fallback":"minecraft:empty",
+  "elements":[
+    {
+      "weight":1,
+      "element":{
+        "location":"letsdoaddon-structures:meadow_pillager_outpost/meadow_pillager_outpost_1",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    }
+  ]
+}
