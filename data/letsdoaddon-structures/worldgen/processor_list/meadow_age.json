@@ -1,0 +1,87 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "meadow:cobbled_limestone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.15
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "meadow:mossy_cobbled_limestone"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "meadow:cobbled_limestone_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.04
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "meadow:mossy_cobbled_limestone_slab"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "meadow:limestone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "meadow:mossy_limestone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "meadow:limestone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "meadow:limestone"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "meadow:limestone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.15
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "meadow:cracked_limestone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "meadow:limestone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "meadow:cobbled_limestone"
+          }
+        }
+      ]
+    }
+  ]
+}
