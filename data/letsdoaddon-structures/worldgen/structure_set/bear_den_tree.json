@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "letsdoaddon-structures:bear_den_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 4930825,
+    "spacing": 16,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

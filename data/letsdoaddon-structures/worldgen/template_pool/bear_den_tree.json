@@ -1,0 +1,15 @@
+{
+  "name":"letsdoaddon-structures:bear_den_tree",
+  "fallback":"minecraft:empty",
+  "elements":[
+    {
+      "weight":1,
+      "element":{
+        "location":"letsdoaddon-structures:bear_den/bear_den_tree_1",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    }
+  ]
+}
