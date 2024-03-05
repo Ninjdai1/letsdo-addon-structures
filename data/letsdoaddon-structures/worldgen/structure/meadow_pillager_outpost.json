@@ -7,9 +7,9 @@
       "spawns": [
         {
           "type": "minecraft:pillager",
-          "maxCount": 1,
+          "maxCount": 4,
           "minCount": 1,
-          "weight": 1
+          "weight": 5
         }
       ]
     }
