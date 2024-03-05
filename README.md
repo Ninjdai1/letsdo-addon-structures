@@ -17,9 +17,9 @@ LDA: Structures is only required server-side (client-side is needed for singlepl
 Dependencies:
 * Let's Do Meadow
 * Let's Do Vinery
-* Let's Do NetherVinery
 
 Optional Dependencies:
+* Let's Do NetherVinery
 * Let's Do BloomingNature
 
 [Modrinth page](https://modrinth.com/datapack/lets-do-addon-structures)
