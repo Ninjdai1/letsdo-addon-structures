@@ -1,0 +1,24 @@
+{
+  "name":"letsdoaddon-structures:mangrove_hut",
+  "fallback":"minecraft:empty",
+  "elements":[
+    {
+      "weight":1,
+      "element":{
+        "location":"letsdoaddon-structures:mangrove_hut/mangrove_hut_small",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight":1,
+      "element":{
+        "location":"letsdoaddon-structures:mangrove_hut/mangrove_hut_tall",
+        "processors":"minecraft:empty",
+        "projection":"rigid",
+        "element_type":"minecraft:single_pool_element"
+      }
+    }
+  ]
+}
