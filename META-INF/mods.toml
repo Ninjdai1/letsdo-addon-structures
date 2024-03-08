@@ -19,3 +19,4 @@ showAsResourcePack = false
 [[dependencies.letsdoaddonstructures]]
   modId="vinery"
   mandatory=true
+  versionRange="[1.3.12,)"
