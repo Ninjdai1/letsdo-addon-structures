@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "letsdoaddon-structures:swamp_well",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 739442,
+    "spacing": 24,
+    "separation": 16,
+    "type": "minecraft:random_spread"
+  }
+}
