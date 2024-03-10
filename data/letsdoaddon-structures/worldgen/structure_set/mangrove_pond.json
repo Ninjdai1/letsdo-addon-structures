@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "letsdoaddon-structures:mangrove_pond",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 739442,
+    "spacing": 3,
+    "separation": 1,
+    "type": "minecraft:random_spread"
+  }
+}
