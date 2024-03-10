@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "letsdoaddon-structures:mangrove_outpost",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 530126,
+    "spacing": 30,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}
