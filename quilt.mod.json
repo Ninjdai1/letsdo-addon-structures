@@ -3,7 +3,7 @@
   "quilt_loader":{
     "group":"com.modrinth",
     "id":"letsdoaddon-structures",
-    "version":"1.7.0",
+    "version":"1.7.1",
     "metadata":{
       "name":"Let's Do Addon: Structures",
       "description":"An addon for the Let's Do mod series that adds themed, let's do-like structures to the world.",
